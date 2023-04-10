@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+     height:100vh;
+     align-items:center;
+    
+}
+.box{ 
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 800px;
+    height: 380px;
+   background-color: lightgrey;
+}
+.spinner{
+   
+   width:200px;
+   height:200px;
+   border: 30px solid white;
+   border-top:30px solid rgb(52, 154, 223);
+   border-radius: 50%;
+   animation: spinner 1s linear infinite;
+}
+
+
+@keyframes spinner {
+     to{
+        transform: rotate(360deg)
+     }
+}
